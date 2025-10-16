@@ -4,8 +4,13 @@ A Model Context Protocol (MCP) server that provides AI assistants with programma
 
 ## What is this?
 
-The Day One MCP Server implements the [Model Context Protocol](https://modelcontextprotocol.io/) to expose Day One journal operations as tools that AI assistants can invoke. It enables:
+The Day One MCP Server is provided as part of the Day One Mac application and implements the [Model Context Protocol](https://modelcontextprotocol.io/) to expose Day One journal operations as tools that AI assistants can invoke.
 
+**This repository provides:**
+- 📦 Distribution of the `.mcpb` bundle for easy installation in MCP clients
+- 📖 Documentation for setup and usage
+
+**Capabilities:**
 - 📝 Programmatic journal entry creation and updates
 - 🔍 Full-text search across journal entries
 - 🏷️ Tag and metadata management
