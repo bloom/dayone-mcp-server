@@ -13,23 +13,18 @@ The Day One MCP Server implements the [Model Context Protocol](https://modelcont
 
 ## Technical Overview
 
-### Architecture
-
 The MCP server runs as a local stdio-based process that communicates via JSON-RPC 2.0:
 
 - **Transport**: stdio (standard input/output)
-- **Protocol**: [MCP specification](https://modelcontextprotocol.io/specification/2025-06-18/schema)
 - **Data Access**: Direct read/write to Day One's Core Data store
 - **Security**: Journal-level access control with opt-in configuration
-
-### Communication Flow
 
 > **Privacy Note:** The MCP server runs entirely on your local machine. However, MCP clients will send retrieved journal content to their respective LLM providers for processing.
 
 ## Requirements
 
 - **macOS only** - The Day One MCP server is currently available only for Day One for Mac
-- **Day One Mac app** - Download from [Day One website](https://dayoneapp.com)
+- **Day One Mac app** - Available on the [Mac App Store](https://apps.apple.com/us/app/day-one/id1055511498?mt=12)
 - **Day One CLI** - Required for MCP server functionality
 
 ## Installation
