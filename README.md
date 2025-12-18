@@ -63,7 +63,7 @@ The Day One MCP server is invoked via the `dayone mcp` command, which starts a s
 
 Download and install the pre-built `.mcpb` bundle:
 
-1. Download the latest `.mcpb` file from [Releases](https://github.com/automattic/dayone-mcp-server/releases)
+1. Download the latest `.mcpb` file from [Releases](https://github.com/bloom/dayone-mcp-server/releases)
 2. Open Claude Desktop → Settings → Extensions
 3. Drag and drop the `.mcpb` file to install
 
@@ -199,7 +199,7 @@ The MCP server process runs locally with no network I/O. All data access is perf
 
 For issues or questions:
 - 📖 [Day One Help Center](https://dayoneapp.com/guides/)
-- 🐛 [Report an Issue](https://github.com/automattic/dayone-mcp-server/issues)
+- 🐛 [Report an Issue](https://github.com/bloom/dayone-mcp-server/issues)
 
 ---
 
